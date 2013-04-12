@@ -53,7 +53,7 @@ function prompt_peepcode_setup {
   # Define prompts.
   PROMPT="
 %~
-%(?.%F{green}${1:-☻ }%f.%F{red}${1:-☻ }%f) "
+%(?.%F{green}${1:-☺ }%f.%F{red}${1:-☹ }%f) "
 RPROMPT='${ruby_info[version]}${vcs_info_msg_0_}'
 
 }
